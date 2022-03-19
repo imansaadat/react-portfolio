@@ -1,0 +1,30 @@
+.about {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+}
+
+.about .about_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.about .about_content .right p{
+  font-size: 3rem;
+  color: var(--color-white);
+  line-height: 3.8rem;
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .about {
+    text-align: center;
+  }
+  .about .about_content {
+    grid-template-columns: 1fr;
+  }
+  .about .about_content .left {
+    order: 1;
+  }
+}

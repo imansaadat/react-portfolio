@@ -1,0 +1,39 @@
+.skills{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bg-primary);
+}
+
+.skills .card_container{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 2rem; 
+}
+
+.skills .card{
+    text-align: center;
+    padding: 2rem;
+    box-shadow: var(--primary-shadow);
+    transition: .6 ease;
+}
+
+.skills .card:hover{
+    transform: scale(1.1)
+}
+
+.skills .card img{
+    width: clamp(8rem,5vw,12rem);
+    margin-bottom: 2rem;
+}
+
+.skills .card h4{
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+
+@media (max-width:991px) {
+    .skills{
+        text-align: center;
+    }
+}
