@@ -9,12 +9,12 @@
   background-color: var(--bg-primary);
 }
 
-.header.scroll{
-  background-color: rgb(10, 25, 47,.8);
+.header.scroll {
+  background-color: rgb(10, 25, 47, 0.8);
   backdrop-filter: blur(12px);
 }
 
-.header .navbar{
+.header .navbar {
   height: 100%;
   display: flex;
   align-items: center;
@@ -33,16 +33,12 @@
   padding: 0 2rem;
 }
 
-.header .navbar .hamMenu{
+.header .navbar .hamMenu {
   display: none;
 }
 
 @media (max-width: 991px) {
-
-  .header{
-    background-color: var(--bg-primary);
-  }
-  .header .navbar .navbar_list{
+  .header .navbar .navbar_list {
     flex-direction: column;
     align-items: center;
     justify-content: center;
