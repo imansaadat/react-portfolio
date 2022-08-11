@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../../assets/logo.png'
 import { Link } from 'react-scroll';
@@ -11,14 +11,19 @@ const Navbar = () => {
     setNavbar(!navbar)
   }
 
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 100) {
-      setScroll(true)
+  
+  useEffect(()=>{
+    const handleScroll = ()=>{
+      if (window.scrollY > 100) {
+        setScroll(true)
+      }
+      else {
+        setScroll(false)
+      }
     }
-    else {
-      setScroll(false)
-    }
-  })
+    window.addEventListener('scroll', handleScroll)
+  },[])
+
 
   return (
     <header className={scroll ? 'header scroll' : 'header'}>

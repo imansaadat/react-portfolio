@@ -1,10 +1,10 @@
 import React from 'react'
-import './Skills.css'
-const Card = ({img , text}) => {
+
+const Card = ({ item: { img, title, alt} }) => {
   return (
     <div className='card'>
-         <img src={img} alt="" />
-         <h4>{text}</h4>
+      <img src={img} alt={alt} />
+      <h4>{title}</h4>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 .about {
   width: 100%;
-  min-height: 100vh;
   background-color: var(--bg-primary);
+  padding: 8rem 0;
 }
 
 .about .about_content {

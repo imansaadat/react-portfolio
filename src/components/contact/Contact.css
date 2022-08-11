@@ -1,6 +1,6 @@
 .contact {
   width: 100%;
-  min-height: 100vh;
+  padding: 4rem 0;
   background: var(--bg-primary);
 }
 
@@ -10,6 +10,7 @@
 
 .contact .form_block h2 {
   color: #fff;
+  margin-bottom: 3rem;
 }
 
 .contact .form_block form {

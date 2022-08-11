@@ -21,6 +21,10 @@
   justify-content: space-between;
 }
 
+.header .navbar .navbar_logo{
+  z-index: 2;
+}
+
 .header .navbar .navbar_logo img {
   width: 50px;
 }
@@ -44,13 +48,13 @@
     justify-content: center;
     position: absolute;
     width: 100%;
-    top: -100vh;
-    left: 0;
+    top: 0;
+    left: -100%;
     height: 100vh;
     background-color: var(--bg-primary);
   }
   .header .navbar .navbar_list.active {
-    top: 0;
+    left: 0;
   }
 
   .header .navbar .navbar_list .navbar_item a {
