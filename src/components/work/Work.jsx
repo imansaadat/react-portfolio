@@ -3,13 +3,54 @@ import Card from './Card'
 import Keyboarda from '../../assets/keyboarda.png';
 import Epoxy from '../../assets/epoxy.png';
 import Sitechin from '../../assets/sitechin.png';
-import landingSitechin from '../../assets/landingSitechin.png';
+import LandingSitechin from '../../assets/landingSitechin.png';
 import Defi from '../../assets/Defi.png';
-import manageLanding from '../../assets/manageLanding.png';
+import ManageLanding from '../../assets/manageLanding.png';
 import Bookmark from '../../assets/bookmark.png';
 import Easybank from '../../assets/easybank.png';
 import Secured from '../../assets/secured.png';
+import { HiArrowNarrowRight } from 'react-icons/hi';
 import './Work.css'
+
+const workData = [
+  {
+    img:Epoxy,
+    title:'Epoxy'
+  },
+  {
+    img:Secured,
+    title:'Secured'
+  },
+  {
+    img:Bookmark,
+    title:'Bookmark'
+  },
+  {
+    img:ManageLanding,
+    title:'manageLanding'
+  },
+  {
+    img:Defi,
+    title:'Defi'
+  },
+  {
+    img:Easybank,
+    title:'Easybank'
+  },
+  {
+    img:LandingSitechin,
+    title:'landingSitechin'
+  },
+  {
+    img:Keyboarda,
+    title:'Keyboarda'
+  },
+  {
+    img:Sitechin,
+    title:'Sitechin'
+  },
+]
+
 const Work = () => {
   return (
     <section name='Work' className='work'>
@@ -19,15 +60,14 @@ const Work = () => {
           <p>Check out some of my projects</p>
         </div>
         <div className='card_container'>
-            <Card img={Epoxy} title='Epoxy'/> 
-            <Card img={Secured} title='Secured'/> 
-            <Card img={Bookmark} title='Bookmark'/> 
-            <Card img={manageLanding} title='Manage Landing'/> 
-            <Card img={Defi} title='Defi'/> 
-            <Card img={Easybank} title='Easybank'/> 
-            <Card img={landingSitechin} title='Landing Sitechin'/> 
-            <Card img={Keyboarda} title='Keyboarda'/> 
-            <Card img={Sitechin} title='Sitechin'/> 
+            {
+              workData.map((item,index)=>(
+                <Card key={index} item={item} />
+              ))
+            }
+        </div>
+        <div>
+          <button className='btn'>View Work <HiArrowNarrowRight className='icon' /> </button>
         </div>
       </div>
     </section>

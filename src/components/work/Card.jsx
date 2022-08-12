@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Card = ({img,title}) => {
+const Card = ({item:{img,title}}) => {
   return (
      <div className='card' style={{backgroundImage:`url(${img})`}}>
           <div className='overlay'>
