@@ -1,3 +1,5 @@
+# Responsive portfolio website with React JS
+![Responsive portfolio website with React JS](./src/assets/design.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
