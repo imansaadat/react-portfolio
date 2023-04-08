@@ -9,6 +9,7 @@ import SassImg from '../../assets/sass.png';
 import JsImg from '../../assets/javascript.png';
 import ReactJsImg from '../../assets/react.png';
 import GitHubImg from '../../assets/github.png';
+import NextImg from '../../assets/nextjs.png';
 
 const skillData = [
   {
@@ -45,6 +46,11 @@ const skillData = [
     img: ReactJsImg,
     title: 'react',
     alt: 'react'
+  },
+  {
+    img: NextImg,
+    title: 'next',
+    alt: 'next'
   },
   {
     img: GitHubImg,
