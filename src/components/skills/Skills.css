@@ -10,23 +10,23 @@
     gap: 2rem; 
 }
 
-.skills .card{
+.skills .item{
     text-align: center;
     padding: 2rem;
     box-shadow: var(--primary-shadow);
     transition: .6 ease;
 }
 
-.skills .card:hover{
+.skills .item:hover{
     transform: scale(1.1)
 }
 
-.skills .card img{
+.skills .item img{
     width: clamp(8rem,5vw,12rem);
     margin-bottom: 2rem;
 }
 
-.skills .card h4{
+.skills .item h4{
     font-size: 2rem;
     color: #fff;
     text-transform:capitalize;

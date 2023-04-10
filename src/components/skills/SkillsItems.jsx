@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Card = ({ item: { img, title, alt} }) => {
+const SkillsItems = ({ item: { img, title, alt} }) => {
   return (
-    <div className='card'>
+    <div className='item'>
       <img src={img} alt={alt} />
       <h4>{title}</h4>
     </div>
   )
 }
 
-export default Card
+export default SkillsItems
