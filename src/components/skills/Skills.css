@@ -4,7 +4,7 @@
     padding: 8rem 0;
 }
 
-.skills .card_container{
+.skills .item_container{
     display: grid; 
     grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
     gap: 2rem; 

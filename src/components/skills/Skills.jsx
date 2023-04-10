@@ -9,7 +9,7 @@ const Skills = ({skillData}) => {
                 <h2>Skills</h2>
                 <p>These are the technologies I've worked with</p>
            </div>
-           <div className='card_container'>
+           <div className='item_container'>
                {
                 skillData.map((item,index)=>(
                   <SkillsItems key={index} item={item} />
