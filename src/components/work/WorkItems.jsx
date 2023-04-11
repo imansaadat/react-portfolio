@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Card = ({item:{img,title}}) => {
+const WorkItems = ({item:{img,title}}) => {
   return (
      <div className='card' style={{backgroundImage:`url(${img})`}}>
           <div className='overlay'>
@@ -14,4 +14,4 @@ const Card = ({item:{img,title}}) => {
   )
 }
 
-export default Card
+export default WorkItems

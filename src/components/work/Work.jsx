@@ -1,57 +1,9 @@
 import React from 'react'
-import Card from './Card'
-import Keyboarda from '../../assets/keyboarda.png';
-import Epoxy from '../../assets/epoxy.png';
-import Sitechin from '../../assets/sitechin.png';
-import LandingSitechin from '../../assets/landingSitechin.png';
-import Defi from '../../assets/Defi.png';
-import ManageLanding from '../../assets/manageLanding.png';
-import Bookmark from '../../assets/bookmark.png';
-import Easybank from '../../assets/easybank.png';
-import Secured from '../../assets/secured.png';
+import WorkItems from './WorkItems'
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import './Work.css'
+import './work.css'
 
-const workData = [
-  {
-    img:Epoxy,
-    title:'Epoxy'
-  },
-  {
-    img:Secured,
-    title:'Secured'
-  },
-  {
-    img:Bookmark,
-    title:'Bookmark'
-  },
-  {
-    img:ManageLanding,
-    title:'manageLanding'
-  },
-  {
-    img:Defi,
-    title:'Defi'
-  },
-  {
-    img:Easybank,
-    title:'Easybank'
-  },
-  {
-    img:LandingSitechin,
-    title:'landingSitechin'
-  },
-  {
-    img:Keyboarda,
-    title:'Keyboarda'
-  },
-  {
-    img:Sitechin,
-    title:'Sitechin'
-  },
-]
-
-const Work = () => {
+const Work = ({workData}) => {
   return (
     <section name='Work' className='work'>
       <div className='container'>
@@ -62,7 +14,7 @@ const Work = () => {
         <div className='card_container'>
             {
               workData.map((item,index)=>(
-                <Card key={index} item={item} />
+                <WorkItems key={index} item={item} />
               ))
             }
         </div>

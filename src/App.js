@@ -5,7 +5,7 @@ import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Work from "./components/work/Work";
 import Contact from "./components/contact/Contact";
-import { skillData } from "./data/data";
+import { skillData,workData } from "./data/data";
 const App = () => {
   return (
     <>
@@ -13,7 +13,7 @@ const App = () => {
       <Intro />
       <About />
       <Skills skillData={skillData} />
-      <Work />
+      <Work workData={workData} />
       <Contact />
     </>
   );
