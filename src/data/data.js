@@ -26,6 +26,7 @@ import bootcamp from '../assets/bootcamp.png';
 import delivery from '../assets/delivery.png';
 import weekaway from '../assets/weekaway.png';
 import clipboard from '../assets/clipboard.png';
+import dentist from '../assets/dentist.png';
 
 export const skillData = [
   {
@@ -77,8 +78,8 @@ export const skillData = [
 
 export const workData = [
   {
-    img:Sitechin,
-    title:'sitechin'
+    img:cars,
+    title:'cars'
   },
   {
     img:coffee,
@@ -87,10 +88,6 @@ export const workData = [
   {
     img:construction,
     title:'construction'
-  },
-  {
-    img:cars,
-    title:'cars'
   },
   {
     img:food,
@@ -107,6 +104,10 @@ export const workData = [
   {
     img:weekaway,
     title:'weekaway'
+  },
+  {
+    img:dentist,
+    title:'dentist'
   },
   {
     img:clipboard,
@@ -143,5 +144,9 @@ export const workData = [
   {
     img:Keyboarda,
     title:'keyboarda'
-  }
+  },
+  {
+    img:Sitechin,
+    title:'sitechin'
+  },
 ]
