@@ -18,6 +18,14 @@ import ManageLanding from '../assets/manageLanding.png';
 import Bookmark from '../assets/bookmark.png';
 import Easybank from '../assets/easybank.png';
 import Secured from '../assets/secured.png';
+import coffee from '../assets/coffee.png';
+import construction from '../assets/construction.png';
+import cars from '../assets/car-website-design.png';
+import food from '../assets/food.png';
+import bootcamp from '../assets/bootcamp.png';
+import delivery from '../assets/delivery.png';
+import weekaway from '../assets/weekaway.png';
+import clipboard from '../assets/clipboard.png';
 
 export const skillData = [
   {
@@ -69,16 +77,52 @@ export const skillData = [
 
 export const workData = [
   {
+    img:Sitechin,
+    title:'sitechin'
+  },
+  {
+    img:coffee,
+    title:'coffee'
+  },
+  {
+    img:construction,
+    title:'construction'
+  },
+  {
+    img:cars,
+    title:'cars'
+  },
+  {
+    img:food,
+    title:'food'
+  },
+  {
+    img:bootcamp,
+    title:'bootcamp'
+  },
+  {
+    img:delivery,
+    title:'delivery'
+  },
+  {
+    img:weekaway,
+    title:'weekaway'
+  },
+  {
+    img:clipboard,
+    title:'clipboard'
+  },
+  {
     img:Epoxy,
-    title:'Epoxy'
+    title:'epoxy'
   },
   {
     img:Secured,
-    title:'Secured'
+    title:'secured'
   },
   {
     img:Bookmark,
-    title:'Bookmark'
+    title:'bookmark'
   },
   {
     img:ManageLanding,
@@ -86,11 +130,11 @@ export const workData = [
   },
   {
     img:Defi,
-    title:'Defi'
+    title:'defi'
   },
   {
     img:Easybank,
-    title:'Easybank'
+    title:'easybank'
   },
   {
     img:LandingSitechin,
@@ -98,10 +142,6 @@ export const workData = [
   },
   {
     img:Keyboarda,
-    title:'Keyboarda'
-  },
-  {
-    img:Sitechin,
-    title:'Sitechin'
-  },
+    title:'keyboarda'
+  }
 ]
