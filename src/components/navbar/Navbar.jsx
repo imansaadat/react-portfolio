@@ -10,8 +10,6 @@ const Navbar = () => {
   const handleNavbar = () => {
     setNavbar(!navbar)
   }
-
-  
   useEffect(()=>{
     const handleScroll = ()=>{
       if (window.scrollY > 100) {
