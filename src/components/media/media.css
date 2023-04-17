@@ -1,0 +1,29 @@
+.media{
+    position: fixed;
+    height: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+.media ul li a{
+    width: 16rem;
+    height: 6rem;
+    margin-left: -92px;
+    padding: 0 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.media ul li a:hover{
+  margin: 0;
+}
+
+@media (max-width:991px){
+    .media{
+        display: none;
+    }
+}

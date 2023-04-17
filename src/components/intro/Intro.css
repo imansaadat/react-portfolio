@@ -21,31 +21,6 @@
     padding: 1.5rem 0 3rem 0;
 }
 
-.intro .social{
-    position: fixed;
-    height: 100%;
-    left: 0;
-    display: flex;
-    align-items: center;
-    z-index: 10;
-}
-
-.intro .social ul li a{
-    width: 16rem;
-    height: 6rem;
-    margin-left: -92px;
-    padding: 0 2rem;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.intro .social ul li a:hover{
-  margin: 0;
-}
-
-
 @media (max-width:991px){
     .intro{
         text-align: center;

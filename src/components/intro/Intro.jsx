@@ -1,59 +1,15 @@
 import React from "react";
 import { Link } from 'react-scroll';
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { MdWavingHand } from "react-icons/md";
 import Typewriter from "typewriter-effect";
 import "./Intro.css";
+import Media from "../media/Media";
 const Intro = () => {
   return (
     <section name="Home" className="intro">
-      <div className="social">
-        <ul>
-          <li>
-            <a
-              href="/"
-              className="linkedin"
-              style={{ backgroundColor: "var(--bg-blue)" }}
-            >
-              <span>linkedin</span>
-              <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              className="github"
-              style={{ backgroundColor: "var(--bg-dark)" }}
-            >
-              <span>Github</span>
-              <FaGithub size={30} />
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              className="email"
-              style={{ backgroundColor: "var(--bg-green)" }}
-            >
-              <span>Email</span>
-              <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              className="resume"
-              style={{ backgroundColor: "var(--bg-gray)" }}
-            >
-              <span>Resume</span>
-              <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
+    {/* social media */}
+    <Media />
       <div className="container">
         <p>
           <MdWavingHand style={{ color: "#FFD600" }} /> Hi, my name is
