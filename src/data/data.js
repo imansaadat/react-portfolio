@@ -8,6 +8,7 @@ import JsImg from '../assets/javascript.png';
 import ReactJsImg from '../assets/react.png';
 import GitHubImg from '../assets/github.png';
 import NextImg from '../assets/nextjs.png';
+import GitImg from '../assets/git.png';
 // Work Images
 import Keyboarda from '../assets/keyboarda.png';
 import Epoxy from '../assets/epoxy.png';
@@ -68,6 +69,11 @@ export const skillData = [
     img: NextImg,
     title: 'next',
     alt: 'next'
+  },
+  {
+    img: GitImg,
+    title: 'git',
+    alt: 'git'
   },
   {
     img: GitHubImg,
