@@ -1,6 +1,6 @@
 import React from 'react'
 import SkillsItems from './SkillsItems'
-import './skills.css'
+import './Skills.css'
 const Skills = ({skillData}) => {
   return (
     <section name='Skills' className='skills flex'>

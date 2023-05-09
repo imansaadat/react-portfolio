@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import WorkItems from './WorkItems'
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import './work.css'
+import './Work.css'
 
 const Work = ({workData}) => {
   const [visible, setVisible] = useState(6);
